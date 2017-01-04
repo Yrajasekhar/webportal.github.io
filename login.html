@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+	<meta charset="UTF-8">
+	<title>LoginPage</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css"/>
+</head>
+<body>
+<!-- Body Starts from hear -->
+<div class="top"></div>
+<div class="left"></div>
+		<div class="main-block">
+			<div class="banner">
+				Mobiles 
+			</div>
+			<div class="form-block">
+					<div class="login-header"> Login </div>
+					<div class="register-header"> Register </div>
+
+					<form method="post" class="login" action="php/login.php">
+						<div class="userid-block">
+						 		<label for="userid" class="userid">Name: </label>
+						 		<span class="input-group-addon"><i class="fa fa-user fa-fw"></i>
+								<input class="userid" type="text" id="userid" name="userid" placeholder="User name"/></span>	
+								<span class="error"> </span>
+						</div>
+						<div class="userpass-block">
+						 		<label for="userpass" class="userpass">Password: </label>
+						 		<span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+								<input class="userpass" type="Password" id="userpass" name="userid" placeholder="Password"/>
+								<span class="error"> </span>
+						</div>
+						<div class="forgot"><a href="#"> Forgot Your Password? </a></div>
+						<div class="butn-align">
+							<input type="submit" class="submit login-button" value="Login" name="submit"/>
+							<!-- <input type="reset" class="reset" value="Reset" name="reset"/> -->
+						</div>
+					</form><!-- End of form -->
+					<form method="post" class="register" action="php/Create_account_c.php">
+						<div class="username-block">
+						 	<label for="username" class="username">Name: </label>
+						 	<span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+							<input class="username" type="text" id="username" name="username" placeholder="User name"/>
+							<span class="error"> </span>
+						</div>
+						<div class="userid-block">
+						 	<label for="userid" class="userid">Email: </label>
+						 	<span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+							<input class="userid" type="text" id="userid" name="userid" placeholder="Email"/>
+							<span class="error"> </span>
+						</div>
+						<div class="userpass-block">
+						 	<label for="userpass" class="userpass">Password: </label>
+						 	<span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+							<input class="userpass" type="Password" id="userpass" name="userid" placeholder="Password"/>
+							<span class="error"> </span>
+						</div>
+						<div class="confirmpass-block">
+						 	<label for="confirmpass" class="confirmpass">Confirm-Password: </label>
+						 	<span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+							<input class="confirmpass" type="Password" id="confirmpass" name="confirmpass" placeholder="Confirm Password"/>
+							<span class="error"> </span>
+						</div>
+						<div class="butn-align">
+							<input type="submit" class="submit" value="Submit" name="submit"/>
+							<!-- <input type="reset" class="reset" value="Reset" name="reset"/> -->
+						</div>
+					</form><!-- End of form -->
+					<!--<a href="#" class="connect facebook">
+			              <div class="connect__icon">
+			                <i class="fa fa-facebook"></i>
+			              </div>
+			              <div class="connect__context">
+			                <span>Sign in with <strong>Facebook</strong></span>
+			              </div>
+			            </a> -->
+				</div><!-- End of form contaier-->
+		</div>
+</body>
+<script src="https://use.fontawesome.com/2e4112e621.js"></script>
+</html>
