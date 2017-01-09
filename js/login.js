@@ -23,8 +23,8 @@ $(document).ready(function()
     /** Or use this also
      ** $("#slide").animate({width:'toggle'},350);*/
 
-	$('.try-again').click(function(){
+	/*$('.try-again').click(function(){
 	  $('.error-page').hide(0);
 	  $('.login').slideDown(1000);
-	});
+	});*/
 });

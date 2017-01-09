@@ -13,7 +13,7 @@ body
 }
 .banner{
 	color: #fff;
-	background-color: #424242;
+	background-color: #333;
 	width: 90%;
 	height: 50px;
 	padding-bottom: 4%;
@@ -96,4 +96,36 @@ input.submit{
 .butn-align{
 	margin-top: 8%;
 	text-align: center;
+}
+
+@media (max-width : 1280px)
+{
+
+}
+
+@media (max-width : 980px)
+{
+	.main-block{width: 55%;margin-top: 3%;margin-left: 15%;}
+	.login-header {padding: 8px 5%;}
+	.register-header {padding: 8px 6%;}
+}
+
+@media (max-width : 768px)
+{
+
+}
+
+@media (max-width : 640px)
+{
+	.main-block{width: 98%;margin-top: 3%;margin-left: 2%;}
+}
+
+@media(max-width: 360px)
+{
+
+}
+
+@media(max-width: 320px)
+{
+
 }

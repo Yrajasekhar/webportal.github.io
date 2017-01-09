@@ -2,27 +2,33 @@
 <html>
 <head>
 	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/headder.css">
 	<link rel="stylesheet" type="text/css" href="css/home.css">
-<script src="https://use.fontawesome.com/2e4112e621.js"></script>
+	<script src="js/headder.js"></script>
+	<script src="https://use.fontawesome.com/2e4112e621.js"></script>
 </head>
 <body>
 	<div class="main-page">
-		<div class="banner">
-			<h1> Mobiles </h1>
-		</div>
 		<div class="nav">
-			<ul>
-				<li><a href="#home"> Home </a></li>
-				<li><a href="#add-post"> Add Post + </a></li>
-				<li><a href="#Articals"> Articals </a></li>
-				<li><a href="#logout"> Logout </a></li>
-			</ul> <!-- End of nav -->
+			<ul class="topnav" id="myTopnav">
+				<li><a href="home.html"> Home </a></li>
+				<li><a href="add_post.html"> Add Post + </a></li>
+				<li><a href="article.html"> Articles </a></li>
+				<li class="right"><a href="login.html"> Logout </a></li>
+				<li class="icon">
+    				<a href="javascript:void(0);" style="font-size:20px;" onclick="myFunction()">&#9776;</a>
+  				</li>
+			</ul> 
+		</div> <!-- End of nav -->
+		<div class="banner">
+			<img src="img/xperia-header.jpg" height="250px" width="100%">
 		</div>
 		<div class="main-block">
 			<div class="header">
 				All Posts
 			</div>
-			<div class="sub-block">
+			<div class="sub-block animated lightSpeedIn">
 				<div class="icon">
 					<i class="fa fa-user fa-fw"></i>
 				</div>
@@ -34,7 +40,7 @@
 					My is rajasekhar...
 				</div>
 			</div>
-			<div class="sub-block">
+			<div class="sub-block animated lightSpeedIn">
 				<div class="icon">
 					<i class="fa fa-user fa-fw"></i>
 				</div>
@@ -46,7 +52,7 @@
 					My is rajasekhar...
 				</div>
 			</div>
-			<div class="sub-block">
+			<div class="sub-block animated lightSpeedIn">
 				<div class="icon">
 					<i class="fa fa-user fa-fw"></i>
 				</div>
@@ -58,8 +64,23 @@
 					My is rajasekhar...
 				</div>
 			</div>
-			
+			<div class="sub-block animated lightSpeedIn">
+				<div class="icon">
+					<i class="fa fa-user fa-fw"></i>
+				</div>
+				<div class="artical">
+					<strong>This is my Third article.</strong>
+					<i style="float: right;">5:31 pm</i>
+				</div>
+				<div class="few-article">
+					My is rajasekhar...
+				</div>
+			</div>
 		</div> <!-- End of main-block -->
+		<!-- <div class="footer">
+			@Propellente Technologies
+			Disclaimer:All product and company names are trademarks or registered trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.
+		</div> -->
 	</div> <!-- End of main-page -->
 </body>
 </html>

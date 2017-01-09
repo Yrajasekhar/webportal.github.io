@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Add Post</title>
+	<link rel="stylesheet" type="text/css" href="css/headder.css">
+	<script src="js/headder.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/add_post.css">
+</head>
+<body>
+	<div class="main-page">
+		<div class="nav">
+			<ul class="topnav" id="myTopnav">
+				<li><a href="home.html"> Home </a></li>
+				<li><a href="add_post.html"> Add Post + </a></li>
+				<li><a href="article.html"> Articles </a></li>
+				<li class="right"><a href="login.html"> Logout </a></li>
+				<li class="icon">
+    				<a href="javascript:void(0);" style="font-size:20px;" onclick="myFunction()">&#9776;</a>
+  				</li>
+			</ul> 
+		</div> <!-- End of nav -->
+		<div class="main-block">
+			<form method="post" action="">
+			    <b class="headder"> ADD A POST: </b>
+			    
+			    <div class="sub-block">
+			    	<label for="tittle"> Tittle: </label>
+			    	<input type="text" id="tittle" placeholder="Give a Tittle">
+			    	<span id="error"></span>
+			     </div>
+			     <div class="sub-block">
+			    	<label for="brand"> Brand: <label>
+			    	<input type="text" id="brand" placeholder="Give a Brand Name">
+			    	<span id="error"></span>
+			     </div>
+			     <div class="sub-block">
+			    	<label for="brand"> Description: <label>
+			    	<textarea  placeholder="Give a Description"></textarea>
+			    	<span id="error"></span>
+			     </div>
+			     <div class="sub-block">
+			    	<label for="file"> Upload a File: <label>
+			    	 <input type="file" id="file" required="required">
+			    	 <span id="error"></span>
+			     </div>
+			     	<input type="submit" class="submit" value="Post" name="post">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
